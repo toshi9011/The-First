@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
   <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
@@ -41,7 +42,7 @@
       <img src="image/IMG_4371 2.JPG" alt="メイン画像">
     </div>
 
-    <section id="point" class="wrapper big-bg">
+    <section id="point" class="wrapper point-bg">
       <h2 class="section-title">~Point~</h2>
       <p>このサイトは初心者エンジニアが作成したものです。<br>
       筆者の紹介ページや作成した作品等を掲載しています。<br>
@@ -49,7 +50,7 @@
       それでは。</p>
     </section>
 
-    <section id="aboutme" class="wrapper">
+    <section id="aboutme" class="wrapper about-bg">
       <h2 class="section-title">~About me~</h2>
 
       <div class="profile">
@@ -72,9 +73,118 @@
         </div>
       </div>
     </section>
+
+    <section id="works" class="wrapper works-bg">
+      <h2 class="section-title">~Works~</h2>
+      <h3>これまでに作り上げた作品を掲載。(画像をクリックでページに飛べます。)<br>  
+      実際に使ってみての感想や改善案など、是非教えていただけると幸いです。</h3>
+
+      <div class="works-list">
+        <ul>
+          <li  class="fade-in">
+            <a href="https://toshi-the-first.herokuapp.com/"><img src="image/The First.png"></a>
+            <h3>The First</h3>
+          </li>
+          <li  class="fade-in">
+            <a href="https://trip-track3.herokuapp.com/"><img src="image/Trip Track.png"></a>
+            <h3>Trip Track</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skill" class="wrapper skill-bg">
+      <h2 class="section-title">~Skill~</h2>
+      <p>フロントエンドエンジニアの学習から始まり、現在はバックエンドエンジニアとして<br>
+      活動できるよう学習を進めています。そんな私の現在保有しているスキルを紹介します。</p>
+
+      <div class="skill-wrapper">
+        <h3>1.フロントエンドスキル</h3>
+        <ul>
+          <li class="fade-in">
+            <img src="image/html-5.svg" alt="html">
+            <h4>~HTML~</h4>
+            <p>初めて学習した言語です。基本的なコードで文章を書く作業は問題なく行えます。</p>
+          </li>
+          <li class="fade-in">
+            <img src="image/css-3.svg" alt="css">
+            <h4>~CSS~</h4>
+            <p>HTMLと並行して学習をしていました。基本的なコーティングでサイトの模写等も行ってきましたが、最近ではフレームワークのbootstrapを学習しています。</p>
+          </li>
+          <li class="fade-in">
+            <img src="image/javascript.svg" alt="css">
+            <h4>~JavaScript~</h4>
+            <p>このサイト内でjqueryを使用しています。javascriptを使用したやアプリ作成の学習を進めていく中で、力をつけていく事ができました。</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="skill-wrapper">
+        <h3>2.バックエンドスキル</h3>
+        <ul>
+          <li class="fade-in">
+            <img src="image/ruby.svg" alt="html">
+            <h4>~Ruby~</h4>
+            <p>バックエンドスキルとして学習しました。アプリ作りでもメインの言語として使用しています。今後はPHPの学習にも力を入れていきたいです。</p>
+          </li>
+          <li class="fade-in">
+            <img src="image/rails.svg" alt="css">
+            <h4>~Ruby on Rails~</h4>
+            <p>ターミナルとエディタを同時に使用しながらの作業は苦労する部分もありましたが、railsを使用してアプリを作成するレベルには到達する事ができました。</p>
+          <li class="fade-in">
+            <img src="image/mysql-icon.svg" alt="css">
+            <h4>~MySQL~</h4>
+            <p>フレームワークの学習の前に理解のため学習しました。基礎的な文法、DDLやDDMの理解を深めています。</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="skill-wrapper">
+        <h3>3.その他のスキル</h3>
+        <ul>
+          <li class="fade-in">
+            <img src="image/github-icon.svg" alt="html">
+            <h4>~Git/GitHub~</h4>
+            <p>Gitの基本コマンド、ブランチやマージからGitHubを利用した開発フローなど、チーム開発に必要なGitの内容を理解しています。</p>
+          </li>
+          <li class="fade-in">
+            <img src="image/linux-tux.svg" alt="css">
+            <h4>~Linux~</h4>
+            <p>Linuxの概要を学んだ上で、Linuxを学習するための環境構築からコマンド操作を行っての作業を学習しました。</p>
+          </li>
+          <li class="fade-in">
+            <img src="image/heroku-icon.svg" alt="css">
+            <h4>~heroku~</h4>
+            <p>デプロイ作業で使用した程度なので理解度はそこまで高くはありません。今後は有名なAWSの学習もしていきたいです。</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="wrapper contact-bg">
+      <h2 class="section-title">CONTACT</h2>
+      <h3>サイト、アプリへのご意見等お待ちしております。</h3>
+      <div class="content">
+        <div class="contact-form">
+          <form action="#">
+            <dl>
+              <dt><label for="name">Name:</label></dt>
+              <dd><input type="text" id="name" name="your-name"></dd>
+              <dt><label for="email">Mail:</label></dt>
+              <dd><input type="email" id="email" name="your-email"></dd>
+              <dt><label for="message">Message:</label></dt>
+              <dd><textarea id="message" name="your-message"></textarea></dd>
+            </dl>
+            <div class="button"><input type="submit" value="SEND"></div>
+          </form>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer id="footer"></footer>
+  <footer id="footer">
+    <p>&copy; 2022 The First</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
